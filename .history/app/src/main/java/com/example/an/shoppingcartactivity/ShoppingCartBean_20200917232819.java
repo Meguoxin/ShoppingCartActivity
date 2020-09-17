@@ -6,7 +6,7 @@ package com.example.an.shoppingcartactivity;
  * 购物车
  */
 public class ShoppingCartBean {
-    private int num;
+
     private int id;
     private String imageUrl;
     private String shoppingName;

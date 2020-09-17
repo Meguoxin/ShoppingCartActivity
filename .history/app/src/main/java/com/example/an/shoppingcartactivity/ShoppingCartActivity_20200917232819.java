@@ -22,6 +22,11 @@ import org.xutils.view.annotation.ViewInject;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by an on 2017/6/14.
+ * 购物车界面
+ *
+ */
 public class ShoppingCartActivity extends Activity implements View.OnClickListener
         , ShoppingCartAdapter.CheckInterface, ShoppingCartAdapter.ModifyCountInterface {
     private static final String TAG = "ShoppingCartActivity";
@@ -52,7 +57,7 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
     }
     private void initView() {
 
-        btnBack= (Button) findViewById(R.id.btn_back);
+         btnBack= (Button) findViewById(R.id.btn_back);
         ckAll= (CheckBox) findViewById(R.id.ck_all);
         tvShowPrice= (TextView) findViewById(R.id.tv_show_price);
         tvSettlement= (TextView) findViewById(R.id.tv_settlement);
@@ -79,7 +84,6 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
             shoppingCartBean.setImageUrl("https://img.alicdn.com/bao/uploaded/i2/TB1YfERKVXXXXanaFXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg");
             shoppingCartBeanList.add(shoppingCartBean);
         }
-        
         for (int i = 0; i < 2; i++) {
             ShoppingCartBean shoppingCartBean = new ShoppingCartBean();
             shoppingCartBean.setShoppingName("瑞士正品夜光男女士手表情侣精钢带男表防水石英学生非天王星机械");
