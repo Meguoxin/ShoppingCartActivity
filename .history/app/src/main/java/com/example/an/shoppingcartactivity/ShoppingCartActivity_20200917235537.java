@@ -31,13 +31,13 @@ public class ShoppingCartActivity extends Activity implements View.OnClickListen
         , ShoppingCartAdapter.CheckInterface, ShoppingCartAdapter.ModifyCountInterface {
     private static final String TAG = "ShoppingCartActivity";
     Button btnBack;
-   //全选 aaa
+   //全选
     CheckBox ckAll;
-    //总额 aaa
+    //总额
     TextView tvShowPrice;
-   //结算 aaa
+   //结算
     TextView tvSettlement;
-   //编辑 aaaa
+   //编辑
     TextView btnEdit;//tv_edit
 
     ListView list_shopping_cart;
